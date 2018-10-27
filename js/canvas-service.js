@@ -35,6 +35,22 @@ function mouseEventListener() {
     });
 }
 
+function touchEventListener() {
+    gCanvas.addEventListener("touchmove", function (ev) {
+        mouseEvent('move', ev)
+    });
+    gCanvas.addEventListener("touchstart", function (ev) {
+        mouseEvent('down', ev)
+    });
+    gCanvas.addEventListener("touchend", function (ev) {
+        mouseEvent('up', ev)
+    });
+    gCanvas.addEventListener("touchstart", function (ev) {
+        mouseEvent('out', ev)
+    });
+}
+
+
 function resetMeme() {
     gMeme = createMeme();
     gCurrText = gMeme.txts[0]
