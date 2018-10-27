@@ -18,6 +18,7 @@ function setCanvas() {
     gCanvas.width = elCanvasDiv.clientWidth; // canvas width same as img width
     gCtx = gCanvas.getContext('2d')
     mouseEventListener();
+    touchEventListener();
 }
 
 function mouseEventListener() {
