@@ -1,0 +1,59 @@
+.container{
+    max-width: 980px;
+    width: 95vw;
+    margin: 0 auto;
+    /* padding: 0 10px; */
+}
+
+/* *** Fonts*** */
+.coming{
+
+    font-family: 'Coming Soon', cursive;
+}
+.combo{
+    font-family: 'Combo', cursive;
+
+}
+.cvekra{
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
+.flex{
+    display:flex
+}
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+.hide{
+    display: none;
+}
+.wrap{
+    flex-wrap:  wrap;
+  }
+.center{
+    justify-content: center
+}
+.align-center{
+    align-items: center
+}
+.space-between{
+    justify-content: space-between;
+}
+.start{
+    justify-content: start;
+}
+.around{
+    justify-content: space-around;
+}

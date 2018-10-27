@@ -1,0 +1,44 @@
+@import "about.css";
+@import "contact.css";
+@import "header.css";
+@import "footer.css";
+@import "gallery.css";
+@import "canvas.css";
+@import "helpers.css";
+
+
+/* Layout */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.body{
+    background-color: lightgray;
+}
+
+:root {
+    --dark: #59606d;
+    --darkA: #68707e;
+    --darkB: #878fa0;
+    /* --mid: #70acb1;
+    --midB: #659ea3; */
+    --mid: #5e7a86;
+    --midB: #65818f;
+    --light: #c9cbd3;
+    --lightB:#c0cbcc;
+    --boom: #e93a23;
+    --boomB: #f5462f;
+    --superLight: lightgray;
+}
+
+
+
+
+
+
+
+
+
+  

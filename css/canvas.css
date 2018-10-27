@@ -1,0 +1,304 @@
+.coming{
+
+    font-family: 'Coming Soon', cursive;
+}
+.combo{
+    font-family: 'Combo', cursive;
+
+}
+.chakra{
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.canvas-container{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+.canvas-wrapper {
+    width: 100%;
+}
+.canvas-controllers{
+    max-width: 100%;
+
+}
+
+.btn-closeEditor{
+    border: none;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 50px;
+    color: var(--light);
+    background-color: var(--mid);
+}
+
+.btn-closeEditor:hover{
+    background-color: var(--midB);
+}
+
+.color-pick{
+    position: relative;
+    top: 4px;
+    border: none;
+    background: none;
+    width: 2.2rem;
+    height: 1.8rem;
+    padding: 0;
+    
+    
+    margin: 0;
+    transition: 0.3s;
+}
+.color-pick:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.arrow{
+    margin-right: 60px;
+    transform: rotate(45deg);
+}
+
+.main-canvas{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.input-box{
+    color: var(--dark);
+    margin-bottom: 5px;
+    justify-content: baseline;
+
+}
+
+.input-line{
+    width: 82%;
+}
+
+.delete-text{
+    margin-left: 12px;
+    padding: 5px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.delete-text:hover{
+    cursor: pointer;
+    color: var(--darkB);
+    transform: scale(1.2);
+
+}
+
+.add-line{
+    margin-left: 12px;
+    padding: 5px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.add-line:hover{
+    cursor: pointer;
+    color: var(--darkB);
+    transform: scale(1.2);
+
+}
+
+
+.font-minus{
+    margin-top: 4px;
+    padding: 5px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    transform: scale(1.2);
+
+}
+
+.font-minus:hover{
+    cursor: pointer;
+    color: var(--darkB);
+}
+
+.font-plus{
+    margin-left: 8px;
+    margin-top: 4px;
+    padding: 5px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+
+}
+
+.font-plus:hover{
+    cursor: pointer;
+    color: var(--darkB);
+    transform: scale(1.2);
+
+}
+
+.font-input{
+    width:48%;
+    color: var(--dark);
+    border: 1px solid var(--superLight);
+    margin-bottom: 5px;
+    margin-right: 4%;
+    padding-right: 8px;
+    padding-left: 8px;
+ 
+}
+
+.fontLine{
+    margin:auto; 
+}
+
+.color-input{
+    text-align: center;
+    width: 48%;
+    color: var(--dark);
+    border: 1px solid var(--superLight);
+    margin-bottom: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.buttons{
+    width:100%;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.font-picker{
+    width: 48%;
+    height: 39px;
+    margin-right: 4%;
+    border: 1px solid var(--superLight);
+    background:none;
+    transition: 0.3s;
+}
+
+.font-picker:hover{
+    cursor: pointer;
+    background-color: var(--superLight);
+}
+
+.move-btns{
+    width: 48%;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 1px solid var(--superLight);
+}
+
+.move-btn{
+    height: 39px;
+    color: var(--dark);
+    font-size: 1.2rem;
+    background: none;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+
+}
+
+.move-btn:hover{
+    cursor: pointer;
+    color: var(--darkB);
+    transform: scale(1.2);
+    
+}
+
+.shadow-container{
+    text-transform: uppercase;
+    width: 48%;
+    height: 39px;
+    margin-right: 4%;
+    text-align: center;
+    border: 1px solid var(--superLight);
+    color: var(--dark);
+    transition: 0.3s;
+    margin-bottom: 20px;
+
+
+}
+
+.shadow-container:hover{
+    background-color: var(--superLight);
+    cursor: pointer;
+}
+
+.shadow-checkbox.checked{
+    font-weight: bold; 
+}
+
+.btn-save{
+    border: 1px solid var(--boom);
+    height: 39px;
+    text-transform: uppercase;
+    color: var(--dark);
+    width: 48%;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: 0.3s;
+
+}
+
+.btn-save:hover{
+    cursor: pointer;
+    background-color: var(--superLight);
+}
+
+.download-btn{
+    position: relative;
+    top: 0;
+    left: 0;
+    color: var(--dark);
+    background: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+
+
+
+
+        
+@media( min-width:680px){
+
+    .canvasAndControl{
+        display: flex;
+        flex-direction: row;
+    }
+    .canvas-wrapper{
+        flex: 6;
+        margin-top: 10px;
+    }
+
+    .canvas-controllers{
+        flex: 4;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .font-charmonman {
+        font-family: 'Charmonman'
+    }
+
+    .font-impact {
+        font-family: 'impact'
+    }
+    .font-roboto {
+        font-family: 'Roboto'
+    }
+    .font-combo {
+        font-family: 'Combo'
+    }
+    .font-coming {
+        font-family: 'coming'
+    }
+    .font-chakra {
+        font-family: 'Chakra Petch'
+    }
+}
